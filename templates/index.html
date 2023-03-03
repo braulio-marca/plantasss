@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block body %}
+    <div  class="container text-center" style="margin-top:150px">
+        <div class="container-fluid ">
+            <h1 id="titulo">Bienvenido {{email}}</h1>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+                
+                <img  src="../static/img/maceta.png" alt="logo" class="img-fluid" >
+            </div>
+        </div>
+       
+        <a href="/busqueda" class="btn btn-primary btn-lg btn-block my-5" >Comenzar</a>
+        
+    </div>
+{% endblock %}

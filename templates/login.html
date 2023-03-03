@@ -1,0 +1,31 @@
+{% extends 'layout0.html' %} 
+{% block body %}
+<div class="container text-center " style="margin-top:100px"  >
+    <h1 style="color:dark" >{{valido}}</h1>
+</div>
+    <div class="contbusqueda container-fluid account-wall ">
+
+        <img class="profile-img" src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=120"
+            alt="">
+        <form class="form-signin" action="/login" method="POST">
+            <input name="email" type="text" class="form-control" placeholder="Email" required autofocus >
+            <input name="password" type="password" class="form-control" placeholder="Password" required >
+           
+
+                <div class=" container-fluid " style="width:39%"a>
+                    <button class="boton btn btn-primary btn-block "  >
+                        Ingresar
+                    </button>
+                </div>
+ 
+          
+      
+        </form>
+    </div>
+    <div class="container text-center my-5">
+        <h1 style="color:red">{{no_valido}}</h1>
+    </div>
+    
+ 
+{% endblock %}
+

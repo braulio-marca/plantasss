@@ -1,0 +1,134 @@
+
+#demo {
+    margin-left: 0px;
+    color:white;
+    text-align: left;
+    
+}
+
+
+.icono {
+    margin-left: 10px;
+    width: 40%;
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    /* vertical-align: middle;; */
+}
+
+.icono2 {
+    margin-left: 0px;
+    /* margin-top: -10px;
+    margin-left: 110px; */
+    width: 60%;
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    /* vertical-align: middle;; */
+}
+.cont{
+    margin-top: 10px;
+    display: flex;
+    height: 100px;
+    
+}
+
+.pie{
+    margin-top: 370px;
+}
+
+.container1 {
+    /* background-color: red; */
+    width: 20%;
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;;
+
+}
+.container2{
+/* background-color: blue; */
+    margin-top: 20px;
+    
+    display: inline-block;
+    width: 70%;
+}
+.container11 {
+    /* background-color: red; */
+    width: 10%;
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+
+}
+
+.container3 {
+    /* background-color: red; */
+    width: 100%;
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;;
+
+}
+
+/* .container-home {
+    
+    width: 40%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;;
+} */
+
+#titulo {
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+/* #btn_home {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+} */
+
+#contbusqueda {
+    /* background-color: red; */
+    width: 60%;
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;;
+    margin-top: 60px;
+    margin-bottom: 160px;
+}
+
+/* #bus {
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+} */
+
+#main-header {
+	background: none;
+	color: white;
+	height: 80px;
+	
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+    
+}

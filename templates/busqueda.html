@@ -1,0 +1,44 @@
+{% extends "layout2.html" %}
+{% block body %}
+
+ 
+  <div class="container " style="margin-top:150px">
+    <div class="row">
+      
+      <div  class="col-6 mx-auto mt-5 text-center">          
+          <form method="POST" enctype="multipart/form-data">
+            {{ form.hidden_tag() }}
+            {% for error in form.photo.errors %}
+              <span style="color:red;">{{error}}</span>
+
+            {% endfor %}  
+            <div class="row justify-content-center">
+              <div class="col-auto">
+                {{form.photo(class="form-control")}}
+              </div>
+              <div class="col-auto">
+                {{ form.submit(class="btn btn-success",placeholder="Uploadd") }}
+                
+              </div>
+            </div>                     
+          
+
+            {% if file_url %}
+              <div class="mt-5">                
+                <img src="{{file_url}}" style="width:400px" >
+              </div>
+            <h1> </h1>
+            <h1 style="margin-bottom:40px ;color:green"> {{c}} </h1>
+
+            {% else %} 
+              <div class="mt-5">                
+                <img src="../static/img/vacio.png" style="width:400px ;margin-top:40px; margin-bottom:40px" >
+              </div>
+            {% endif %}
+        </div>
+      </div>
+  </div>
+
+
+{% endblock %}
+
